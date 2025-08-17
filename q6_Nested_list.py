@@ -18,5 +18,20 @@ for i in matrix:
     for item in i:
         new.append(item**2)
     square_list.append(new)
+print("Squared matrix :")
 for i in square_list:
     print(i)
+#Output:
+'''
+Enter the no of columns2
+Enter the no of rows2
+Enter the 0,0th element3
+Enter the 0,1th element4
+Enter the 1,0th element3
+Enter the 1,1th element5
+MATRIX :
+[3, 4]
+[3, 5]
+Squared matrix :
+[9, 16]
+[9, 25]'''
